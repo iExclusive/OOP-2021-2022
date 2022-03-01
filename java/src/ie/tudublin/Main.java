@@ -53,7 +53,7 @@ public class Main
     }
     public static void main(String[] args)
     {
-        arrays();
+        loops();
 
         // Tara Misty
         // Tara Tara
