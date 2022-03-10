@@ -3,14 +3,8 @@ package ie.tudublin;
 import processing.core.PApplet;
 
 public class LifeBoard {
-<<<<<<< HEAD
-
-    boolean [][] board;
-    
-=======
     boolean[][] board;
     boolean[][] next;
->>>>>>> dc357a64c821c14298f45d4d5842a46225bfadd3
     int size;
 
     float cellSize;
@@ -35,8 +29,6 @@ public class LifeBoard {
             }
         }
     }
-<<<<<<< HEAD
-=======
 
     public void update()
     {
@@ -104,7 +96,6 @@ public class LifeBoard {
         return count;
     }
 
->>>>>>> dc357a64c821c14298f45d4d5842a46225bfadd3
     public boolean isAlive(int row, int col)
     {
         if (row >= 0 && row < size && col >= 0 && col < size)
