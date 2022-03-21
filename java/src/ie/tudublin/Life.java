@@ -22,4 +22,4 @@ public class Life extends PApplet {
 		board.render();
 		board.update();
 	}
-}
+}	
