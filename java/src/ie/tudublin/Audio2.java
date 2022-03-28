@@ -112,7 +112,7 @@ public class Audio2 extends PApplet
         fill(255);
         text("Freq: " + freq, 100, 200);
 
-        float freq = fft.indexToFreq(maxIndex);
+
 
         textSize(20);
         fill(255);
