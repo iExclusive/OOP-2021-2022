@@ -25,6 +25,7 @@ public class StarMap extends PApplet {
             fill(255);
             text(i, x, border * 0.5f);
             text(i, border * 0.5f, x);
+        
         }
     }
 
