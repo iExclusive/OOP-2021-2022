@@ -61,6 +61,11 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Eye());
     }
+    public static void basicshapes()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new BasicShapes());
+    }
 
     public static void colorfulLife()
 	{
