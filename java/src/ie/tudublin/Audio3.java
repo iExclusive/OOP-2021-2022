@@ -179,14 +179,6 @@ public class Audio3 extends PApplet
                 float f = lerpedBuffer[i] * halfH * 12.0f;
                 line(halfH + f, halfH - f, i++, i++);
             }
-            /*for(int i = 0 ; i < ab.size() ; i ++)
-            {
-
-                float u = map(ab.get(i), -1, 1, 0, 1);
-                stroke(u, 255, 255);
-                float f = lerpedBuffer[i] * halfH * 1.0f;
-                circle (halfH, f - halfH, i);
-            }*/
             break;
 
 
